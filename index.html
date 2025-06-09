@@ -6,79 +6,150 @@
     <title>Sofito Portfolio 2025</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="webfonts/no-culture-no-soul-demo.css">
-    <link rel="stylesheet" href="https://use.typekit.net/uil4fsh.css">
-    <link rel="stylesheet" href="https://use.typekit.net/uil4fsh.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.typekit.net/snp6oma.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg"> -->
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg">
 </head>
 
-<body>
+<body id="top">
     <header>
         <nav>
-            <p><a href="#about me">about me</a></p>
-            <p><a href="#my work">my work</a></p>
-            <p><a href="contact me">contact me</a></p>
+            <div>
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="my-work.html">My works</a></li>
+                <li><a href="contact-me.html">Contact me</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h3>Hi, my name is</h3>
+            <h3 class="intro-text">Hi, my name is</h3>
             <div class="hero-title">
                 <h1>SOFITO</h1>
-                <span>SOFITO</span>
+                <span class="typing-hero">SOFITO</span>
             </div>
         </section>
 
-        <section>
-            <p>and i'm a graphic designer from Argentina living on the other side of the world =D</p>
-        </section>
 
-        <section>
-            <div>
-                <h5>enjoy some of my works!</h5>
-            </div>
-            <div>
-                <img src="img/afiche-ambiente.jpg" alt="Poster of a pinguine made with plastic bags">
-                <h5>enviromental awareness poster</h5>
-            </div>
-            <div>
-                <img src="img/festival-cultofhorror.jpg" alt="A horror festival brochure">
-                <h5>cult of horror festival</h5>
-            </div>
-            <div>
-                <img src="img/centro-untu.jpg" alt="Multiple posters from a South African Cultural Center">
-                <h5>UNTU South Africa cultural center</h5>
+        <section class="intro">
+            <div class="asterisco"></div>
+            <div class="texto">
+                <p>
+                    and i'm a graphic designer <br>
+                    from Argentina living on the <br>
+                    other side of the world =D
+                </p>
+                <div class="boton-contenedor">
+                    <a href="about-me.html" class="boton">know more!</a>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h5>want to see more of my work?</h5>
-            </div>
-            <div>
-                <img src="img/arrabalera.jpg" alt="Photography of a manual work">
-                <img src="img/somnia-revista.jpg" alt="Photography of a magazine">
-                <img src="img/festival-tnc.jpg" alt="Multiple posters from TNC Festival">
-                <img src="img/metropolitan.jpg" alt="Photography of a alcohol bottle">
-                <h5>show more</h5>
+
+
+        <section class="projects-gallery">
+            <div class="subtitulo">
+                <img src="img/asterisco.svg" alt="asterisco">
+                <h4>enjoy some <br>
+                    of my works!</h4>
             </div>
 
-            <section>
-                <h3>let's work together!</h3>
+            <div class="project">
+                <a href="cult-of-horror-festival.html">
+                    <div class="project-image-contenedor">
+                        <div class="project-title">cult of horror festival</div>
+                        <div class="project-image" style="background-image: url('img/festival-cultofhorror.jpg');">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project">
+                <a href="environmental-poster.html">
+                    <div class="project-image-contenedor">
+                        <div class="project-title">environmental awareness poster</div>
+                        <div class="project-image" style="background-image: url('img/afiche-ambiente.jpg');"></div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project">
+                <a href="untu-center.html">
+                    <div class="project-image-contenedor">
+                        <div class="project-title">UNTU cultural center</div>
+                        <div class="project-image" style="background-image: url('img/centro-untu.jpg');"></div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="more-works">
+            <img src="img/forma-b.svg" alt="" class="forma-fondo">
+            <div class="subtitulo">
+                <img src="img/asterisco.svg" alt="asterisco">
+                <h4>want to see more of my work?</h4>
+            </div>
+            <div class="grid-wrapper">
+                <div class="column">
+                    <img src="img/arrabalera.jpg" alt="Photography of a manual work">
+                    <img src="img/somnia-revista.jpg" alt="Photography of a magazine">
+                </div>
+                <div class="column">
+                    <img src="img/festival-tnc.jpg" alt="Multiple posters from TNC Festival">
+                    <img src="img/metropolitan.jpg" alt="Photography of an alcohol bottle">
+                </div>
+            </div>
+            <div class="boton-wrapper">
+                <a href="my-work.html" class="boton boton-rojo">show more</a>
+            </div>
+        </section>
+        <section class="work-section">
+            <div class="work-content">
+                <h3>
+                    LET'S
+                    <span class="work-wrapper">
+                        <span class="work-raleway">WORK</span>
+                        <span class="work-noculture">WORK</span>
+                    </span>
+                    TOGETHER!
+                </h3>
                 <h4>got a project or you want to collaborate?</h4>
-                <h5>contact me</h5>
-            </section>
+                <a href="contact-me.html" class="boton">Contact me</a>
+            </div>
         </section>
-
     </main>
     <footer>
-        <p><a href="https://www.behance.net/sofiazambrana" target="_blank">behance.net/sofiazambrana</a></p>
-        <p><a href="tel:+32478751158">+32 478 75 11 58</a></p>
-        <p><a href="mailto:sofiazambrana1@gmail.com">sofiazambrana1@gmail.com</a></p>
+        <div class="footer-top">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Logo" class="logo">
+            </a>
+            <nav class="footer-nav">
+                <a href="about-me.html">About me</a>
+                <a href="my-work.html">My works</a>
+                <a href="contact-me.html">Contact me</a>
+            </nav>
+            <a href="#top" class="scroll-up">↑</a>
+        </div>
+        <div class="footer-division"></div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Sofia Zambrana - All rights reserved</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/sofothemonster/" target="_blank" rel="noopener">
+                    <img src="img/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://www.behance.net/sofiazambrana" target="_blank" rel="noopener">
+                    <img src="img/behance.svg" alt="Behance">
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 
