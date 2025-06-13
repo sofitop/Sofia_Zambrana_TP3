@@ -1,0 +1,34 @@
+TP3- Portfolio
+
+Computación III- Cátedra Wischñewsky 
+1° cuatrimestre 2025
+
+Alumna: Sofía Ailén Zambrana.
+
+Desde un principio sabía que no quería hacer un portfolio así nomás, sino algo que me pueda llegar a servir en el futuro. 
+Es por eso que intenté ponerle toda la onda, me senté en la computadora por horas, viendo vídeos, buscando en google, probando, 
+borrando, pegando código de internet y rompiendo todo, arreglando, copiando y pegando mi propio código 
+(porque si funciona, obvio que lo iba a volver a usar) y haciendo cosas que ni siquiera sabía que eran posibles. 
+
+La página web cuenta con un INDEX, que es la página principal y después se divide en otras trés páginas más importantes: sobre mi,
+contacto y mis trabajos; sin embargo, también en el main se puede acceder a tres trabajos destacados directamente, sin tener que ir 
+a la página de "mis trabajos". La idea es que cada proyecto tenga su página dedicada en donde se puedan ver las imágenes más en detalle
+(por ahora no supe cómo hacer para que se abran) y también se pueda ver el proceso. Como audio/video agregué la playlist de Spotify en
+"sobre mi", aunque no sé muy bien si cumple con lo que se pedía en la consigna; para audio, quería agregar que cada vez que apretaras un
+botón hiciera un ruido específico pero tampoco supe como hacerlo, por lo que vi era necesario hacerlo con JavaScript pero no me animé.
+
+Fueron unas semanas de mucho trabajo, pero siento que después de este TP soy capaz de hacer cualquier otra web (no muy loca) 
+que se me ocurra y eso era justo lo que quería lograr cursando esta materia. Estoy satisfecha sabiendo que pude desarrollar justo 
+lo que tenía boceteado en mi Figma (aunque haya quedado desordenado y un poco caótico, me sirvió para saber qué tamaños usar 
+y donde posicionar cada cosas) y también elaborar en base a eso páginas más funcionales. 
+
+Creo que lo que más me falta indagar todavía es en cómo hacerlo responsive, y también debería trabajar un poco más en la
+simplificación de código porque estoy segura que, a pesar de haber revisado todo un montón de veces, seguro tengo cosas repetidas
+o que no tienen ninguna funcionalidad, o que se pisan con otras cosas.
+
+De todas maneras, es un proyecto que siento que es muy útil y se puede seguir desarrollando.
+
+Tamaño pantalla: 3840x2160
+Editor de código: VS Code
+Link de Figma: https://www.figma.com/design/QGiATjeEFCQTdWkniIYlo6/Portfolio-2025?node-id=66-20&t=Qa6iUUcSwgCbx0gp-1
+
